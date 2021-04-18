@@ -105,12 +105,22 @@ ul li{
     flex-direction: column;
     align-items: center;
 }
+
+.section h3{
+    margin: 0 auto 25px;
+}
+
 .upper_section, .lower_section{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
-.section_1,.section_2,.section_3,.section_4{
+.upper_section img, .lower_section img{
+    width: 95%;
+}
+
+.section_1,.section_2,.section_3,.section_4,.section_5{
     margin: 10px auto;
     width: 70%;
     border: 1px solid red;
@@ -137,6 +147,22 @@ ul li{
     margin: 50px auto 20px;
     padding: 20px 0 0 0;
 }
+
+/*NUTRITION*/
+#img_month_theme{
+    width: 100%;
+}
+.nutrition-section-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.nutrition-section-ul li{
+    margin: 5px 0;
+}
+
 
 
 /*

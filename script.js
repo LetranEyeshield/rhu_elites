@@ -37,5 +37,5 @@ function changeImg(){
     
 }
 
-// window.onload=changeImg;
-window.onload=welcome_msg;
+window.onload=changeImg;
+// window.onload=welcome_msg;
