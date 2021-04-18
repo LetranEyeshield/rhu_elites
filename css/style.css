@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5{
 }
 h1{
     font-size: 50px;
-    color: white;
+    color: #00f3db;
     margin: 20px 0 10px;
     font-weight: 700;
 }
@@ -37,7 +37,11 @@ h2{
 }
 h3{
     font-size: 25px;
+    color: #00f3db;
 }
+
+/*HEADER*/
+
 ul{
     display: flex;
     flex-direction: row;
@@ -54,6 +58,7 @@ ul li{
 }
 .header .row img{
     width: 40%;
+    border-radius: 50%;
 }
 .header .row a{
     margin: 25px 0 0;
@@ -74,6 +79,27 @@ ul li{
     transition: 0.3s ease-in-out;
 }
 
+/*BANNER*/
+.pages_banner{
+    border: 1px solid red;
+    width: 40%;
+    margin: 0 auto 25px;
+    padding: 15px 10px 10px 10px;
+}
+.pages_banner p{
+    margin: 0 auto;
+}
+.pages_banner p:nth-of-type(1){
+    margin: 0 auto 20px;
+}
+.email_link{
+    display: inline-block;
+    color: #00f3db;
+    text-decoration: underline;
+}
+
+
+/*SECTION*/
 .section{
     display: flex;
     flex-direction: column;
@@ -84,26 +110,33 @@ ul li{
     flex-direction: row;
 }
 
-.section_1{
+.section_1,.section_2,.section_3,.section_4{
     margin: 10px auto;
     width: 70%;
-    border: 1px solid white;
+    border: 1px solid red;
     padding: 20px;
 }
 
 .section p{
     margin: 15px auto;
+    /* color: #F9F794; */
 }
 
 
 /*slider*/
 .img_slide{
     width: 55%;
-    height: 350px;
+    height: 450px;
     margin: 25px auto;
 }
-
 /*end of slider*/
+
+/*FOOTER*/
+.footer{
+    border-top: 1px solid #00f3db;
+    margin: 50px auto 20px;
+    padding: 20px 0 0 0;
+}
 
 
 /*
