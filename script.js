@@ -15,6 +15,7 @@ images[9]='images/banner/adrian.jpg';
 images[10]='images/banner/pfizer.jpg';
 images[11]='images/banner/eyeshield_7.jpg';
 images[12]='images/banner/mam_shiela.jpg';
+images[13]='images/banner/mam_monica.jpg';
 
 function welcome_msg(){
     var msg = 'Hello';
