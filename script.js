@@ -18,7 +18,12 @@ images[12]='images/banner/mam_shiela.jpg';
 images[13]='images/banner/mam_monica.jpg';
 
 function welcome_msg(){
-    var msg = 'Hello';
+    var msg = 'Magandang araw po sa inyo!'+'\n'
+                +'Ang website po na ito ay ginawa para makatulong'+'\n'
+                +'sa impormasyon tungkol sa ilang health services ng RHU-Manaoag'+'\n'
+                +'Bagaman hindi pa po kumpleto ang ilang mga content pero sana makatulong ito'+'\n'
+                +'sa mga kababayan natin sa ilang mga katanungan'+'\n'
+                +'Maraming Salamat Po!';
     alert(msg);
     changeImg();
 }
@@ -38,5 +43,5 @@ function changeImg(){
     
 }
 
-window.onload=changeImg;
-// window.onload=welcome_msg;
+// window.onload=changeImg;
+window.onload=welcome_msg;

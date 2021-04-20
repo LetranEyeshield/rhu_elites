@@ -165,6 +165,20 @@ ul li{
     margin: 5px 0;
 }
 
+/*COVID*/
+.covid-ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.covid-ul li{
+    list-style: disc;
+    margin-left: 25px;
+}
+.covid-h4{
+    color: #00f3db;
+}
 
 
 
