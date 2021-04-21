@@ -16,6 +16,8 @@ images[10]='images/banner/pfizer.jpg';
 images[11]='images/banner/eyeshield_7.jpg';
 images[12]='images/banner/mam_shiela.jpg';
 images[13]='images/banner/mam_monica.jpg';
+images[14]='images/banner/mam_jenet.jpg';
+images[15]='images/banner/mam_xtine.jpg';
 
 function welcome_msg(){
     var msg = 'Magandang araw po sa inyo!'+'\n'
@@ -26,6 +28,8 @@ function welcome_msg(){
                 +'Maraming Salamat Po!';
     alert(msg);
     changeImg();
+
+    
 }
 
 function changeImg(){

@@ -180,6 +180,32 @@ ul li{
     color: #00f3db;
 }
 
+/*MED TECH*/
+.med-tech-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.med-tech-div:nth-of-type(2){
+    flex-direction: row;
+    margin-top: 20px;
+}
+.med-tech-div img{
+    width: 100%;
+}
+.med-tech-div-lower{
+    width: 90%;
+}
+.med-tech-div-lower img{
+    width: 90%;
+}
+#iframe{
+    width: 700px;
+    height: 500px;
+}
+.med-tech-section img{
+    width: 50%;
+}
 
 
 @media screen and (max-width: 1024px){
@@ -206,14 +232,10 @@ ul li{
 @media screen and (max-width: 885px){
 	.header .row .header_bottom ul li a{
         margin: 0 5px;
-    }
-}
-
-@media screen and (max-width: 855px){
-	.header .row .header_bottom ul li a{
         font-size: 14px;
     }
 }
+
 
 @media screen and (max-width: 800px){
 	.header .row .header_bottom ul{
@@ -239,6 +261,24 @@ ul li{
     h2{
         font-size: 30px;
     }
+    #iframe{
+        width: 450px;
+        height: 300px;
+    }
+    .med-tech-section img{
+        width: 80%;
+    }
+    .pages_banner img{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 620px){
+    #iframe {
+        width: 400px;
+        height: 250px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -250,6 +290,16 @@ ul li{
     }
     .img_slide{
         height: 400px;
+    }
+}
+
+@media screen and (max-width: 545px){
+    #iframe {
+        width: 300px;
+        height: 200px;
+    }
+    .med-tech-section img {
+        width: 90%;
     }
 }
 
@@ -287,6 +337,10 @@ ul li{
     }
     .nutrition-section-ul{
         text-align: center;
+    }
+    #iframe {
+        width: 90%;
+        height: unset;
     }
 
 }
